@@ -794,7 +794,7 @@ import fr.dungeons.Dungeons;
                             /* 405 */
                             Material m = is.getType();
                             /* 406 */
-                            if (m == Material.LEGACY_SKULL) m = Material.LEGACY_SKULL;
+                            if (m == Material.WITHER_SKELETON_SKULL) m = Material.WITHER_SKELETON_SKULL;
                             /*     */
                             /* 408 */
                             if (m.isBlock())

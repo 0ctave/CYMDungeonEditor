@@ -91,7 +91,7 @@ public class CustomMobEditor {
         }
 
         inv.setItem(4, is);
-        is = new ItemStack(Material.LEGACY_SKULL);
+        is = new ItemStack(Material.WITHER_SKELETON_SKULL);
         im = is.getItemMeta();
         im.setDisplayName(ChatColor.GREEN + "Type");
         im.setLore(Arrays.asList(ChatColor.GRAY + "Type: " + ChatColor.BLUE + cm.getType().name()));
@@ -138,7 +138,7 @@ public class CustomMobEditor {
 
         for(int var6 = 0; var6 < var5; ++var6) {
             EntityType ct = var4[var6];
-            ItemStack is = new ItemStack(Material.LEGACY_SKULL);
+            ItemStack is = new ItemStack(Material.WITHER_SKELETON_SKULL);
             ItemMeta im = is.getItemMeta();
             im.setDisplayName(ct.name());
             is.setItemMeta(im);
@@ -166,7 +166,7 @@ public class CustomMobEditor {
         while(var10.hasNext()) {
             int id = (Integer)var10.next();
             CustomMob cm = CustomMob.getLoadedCustomMobs().get(id);
-            ItemStack item = new ItemStack(Material.LEGACY_SKULL);
+            ItemStack item = new ItemStack(Material.WITHER_SKELETON_SKULL);
             ItemMeta im = item.getItemMeta();
             im.setDisplayName(ChatColor.BLUE + "ReferenceID: " + ChatColor.GOLD + id);
             List<String> lore = new ArrayList();
