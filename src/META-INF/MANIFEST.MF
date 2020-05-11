@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: DungeonEditor.jar paper-1.15.2.jar cymAPI.jar worldedit-bukk
+ it-7.1.0.jar Dungeon.jar
+

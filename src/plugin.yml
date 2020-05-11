@@ -1,0 +1,22 @@
+name: DungeonEditor
+main: fr.dungeons.dungeoneditor.DungeonEditor
+version: ALPHA_0.1
+author: Tylonium
+depend: [Dungeons]
+softdepend:
+commands:
+  createaction:
+    usage: /createaction <type> <args>
+    description: create a new action
+  doaction:
+    usage: /doaction <id>
+    description: run a action
+  createevent:
+    usage: /createevent <type> <args>
+    description: create a new event
+  createdungeon:
+    usage: /createdungeon <name> <x1> <y1> <z1> <x2> <y2> <z2> <spawnx> <spawny> <spawnz> <events>
+    description: create a new dungeon
+  custommob:
+    usage: /custommob <arg>
+    description:
