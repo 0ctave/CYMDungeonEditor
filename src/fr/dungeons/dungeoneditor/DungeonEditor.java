@@ -794,7 +794,7 @@ import fr.dungeons.Dungeons;
                             /* 405 */
                             Material m = is.getType();
                             /* 406 */
-                            if (m == Material.WITHER_SKELETON_SKULL) m = Material.WITHER_SKELETON_SKULL;
+                            if (m == Material.PLAYER_HEAD) m = Material.PLAYER_HEAD;
                             /*     */
                             /* 408 */
                             if (m.isBlock())

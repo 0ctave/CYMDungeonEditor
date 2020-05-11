@@ -173,7 +173,7 @@ public class CustomMobListener implements Listener {
         if (event.getClickedInventory() != null) {
             if (event.getView().getTitle().equals(ChatColor.BLUE + "CustomMob list")) {
                 event.setCancelled(true);
-                if (event.getCurrentItem() != null && event.getCurrentItem().getType() == Material.WITHER_SKELETON_SKULL) {
+                if (event.getCurrentItem() != null && event.getCurrentItem().getType() == Material.PLAYER_HEAD) {
                     CustomMob cm = CustomMob.getByID(event.getSlot());
                     if (event.getClick() == ClickType.LEFT) {
                         ((Player)event.getWhoClicked()).performCommand("custommob info " + cm.getReferenceID());
